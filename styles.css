@@ -1,0 +1,222 @@
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Poppins', sans-serif; */
+
+#landing-page {
+    background: url(yellowbg.png);
+    background-size: 100%;
+}
+
+.hero-img {
+    height: 75%;
+}
+
+.row h2 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+span {
+    color: azure;
+    font-weight: 500;
+}
+
+.row h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 4.1rem;
+    letter-spacing: 3px;
+    color: #161414;
+}
+
+.imagediv {
+    flex: 0 0 auto;
+    width: 40%;
+}
+
+.hero-text {
+    padding-top: 160px;
+}
+
+.buttons {
+    margin-top: 60px;
+}
+
+.buttons a {
+    padding: 0 30px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #2028b9;
+}
+
+/* Experience */
+
+#experience {
+    background: url(pg2.png);
+    position: relative;
+    z-index: 1;
+    background-size: 102%;
+    height: 750px;
+}
+
+.experience h1,
+.work h1,
+.contact h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #323232;
+    font-family: 'Poppins', sans-serif;
+}
+
+.experience h4 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffa800;
+}
+
+.experience ul li {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.experience img {
+    width: 184px;
+    height: 152px;
+}
+
+.cv {
+    text-align: center;
+    position: relative;
+}
+
+.cv a {
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    color: #2028B9;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+
+}
+
+.cv a:hover {
+    color: #ffa800;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+.cv img {
+    position: relative;
+    width: 2.5%;
+    height: 2.5%;
+    right: 8px;
+    z-index: -1;
+    bottom: 5px;
+
+}
+
+/* W O R K S=================================================== */
+/* W O R K S================================================== */
+#work{
+    background-image: url(pg3.png);
+    background-size: 100%;
+}
+.wrapper {
+    width: 100%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#work h2 {
+    font-family: 'Amatic SC', cursive;
+    color: #ffa800;
+    font-weight: bolder;
+    font-size: 3rem;
+    top: 10px;
+    position: relative;
+    margin-left: 100px;
+
+}
+
+.carousel {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.slick-slide {
+    margin: 10px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+.wrapper .slick-prev:before{
+color: rgb(43, 41, 41);
+}
+.wrapper .slick-next:before{
+    color: rgb(43, 41, 41);
+    }
+.wrapper .slick-dots li button:before {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.shecan {
+    text-align: center;
+}
+
+.shecan img {
+    width: 85%;
+}
+
+.graphic-designs img {
+
+    width: 25%;
+}
+
+.graphic-designs {
+    justify-content: center;
+    padding: 30px;
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 100px;
+}
+
+/* CONTACT */
+#contact{
+    background-image: url(usframe.png);
+    background-size:110%;
+    background-position: center;
+}
+.center{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #161414;
+}
+.center a{
+    color: #2028b9;
+}
+/* .contact .us{
+    text-align: center;
+    margin-top: 200px;
+} */
+.flox{
+    display: flex;
+    padding: 280px 0 30px;
+    gap: 0;
+    justify-content: center;
+}
+.flox h6{
+    font-family: 'Amatic SC', cursive;
+    color: #161414;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.flox a{
+    font-size: 1.3rem;
+    padding: 8px;
+    color: #161414;
+}
