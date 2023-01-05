@@ -1,28 +1,25 @@
 /* font-family: 'Amatic SC', cursive;
 font-family: 'Poppins', sans-serif; */
-*{
+* {
     scroll-behavior: smooth;
-  scroll-padding-top: 2rem;
+    scroll-padding-top: 2rem;
 }
+
+/* body{
+    background: url(bg.png);
+    background-size: 100%;
+} */
+
 body {
     background-image: url(bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-   height:100%;
+    height: 100%;
 }
-/* body{
-    background: url(bg.png);
-    background-size: 100%;
-} */
-/* #landing-page {
-    background: url(yellowbg.png);
-    background-size: 100%;
-    height: 1020px;
-} */
 
 .hero-img {
-    height: 72%;
+    height: 70%;
 }
 
 .row h2 {
@@ -169,12 +166,15 @@ span {
 .slick-slide img {
     width: 100%;
 }
-.wrapper .slick-prev:before{
-color: rgb(43, 41, 41);
-}
-.wrapper .slick-next:before{
+
+.wrapper .slick-prev:before {
     color: rgb(43, 41, 41);
-    }
+}
+
+.wrapper .slick-next:before {
+    color: rgb(43, 41, 41);
+}
+
 .wrapper .slick-dots li button:before {
     font-size: 20px;
     color: rgb(0, 0, 0);
@@ -187,17 +187,22 @@ color: rgb(43, 41, 41);
 .shecan img {
     width: 85%;
 }
+.hover01 img {
+    width: 80%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
 
-.graphic-designs img {
-
-    width: 29%;
+.hover01:hover img {
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
 .graphic-designs {
     justify-content: center;
-    padding: 30px;
     display: flex;
-    gap: 1rem;
     margin-bottom: 100px;
 }
 
@@ -207,31 +212,35 @@ color: rgb(43, 41, 41);
     background-size:110%;
     background-position: center;
 } */
-.center{
+.center {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: #161414;
 }
-.center a{
+
+.center a {
     color: #2028b9;
 }
+
 /* .contact .us{
     text-align: center;
     margin-top: 200px;
 } */
-.flox{
+.flox {
     display: flex;
     padding: 240px 0 30px;
     gap: 0;
     justify-content: center;
 }
-.flox h6{
+
+.flox h6 {
     font-family: 'Amatic SC', cursive;
     color: #161414;
     font-size: 1.5rem;
     font-weight: bold;
 }
-.flox a{
+
+.flox a {
     font-size: 1.3rem;
     padding: 8px;
     color: #161414;
