@@ -4,10 +4,17 @@ font-family: 'Poppins', sans-serif; */
     scroll-behavior: smooth;
   scroll-padding-top: 2rem;
 }
-body{
+body {
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   height:100%;
+}
+/* body{
     background: url(bg.png);
     background-size: 100%;
-}
+} */
 /* #landing-page {
     background: url(yellowbg.png);
     background-size: 100%;
