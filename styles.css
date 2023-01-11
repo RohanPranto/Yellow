@@ -212,6 +212,10 @@ span {
 .shecan img {
     width: 85%;
 }
+.shecan img:hover{
+    box-shadow:7px -7px 6px gray;
+    transition: 1s;
+}
 .hover01 img {
     width: 80%;
     -webkit-transform: scale(1);
