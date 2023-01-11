@@ -160,7 +160,30 @@ span {
     width: 90%;
     margin: 0px auto;
 }
-
+.apple:hover{
+    box-shadow:5px 5px 6px gray;
+    transition: 0.5s;
+}
+.todo:hover{
+    box-shadow:5px 5px 6px gray;
+    transition: 0.5s;
+}
+.music:hover{
+    box-shadow:5px 5px 6px gray;
+    transition: 0.5s;
+}
+.cycle:hover{
+    box-shadow:5px 5px 6px gray;
+    transition: 0.5s;
+}
+.bank:hover{
+    box-shadow:5px 5px 6px gray;
+    transition: 0.5s;
+}
+.store:hover{
+    box-shadow:5px 5px 6px gray;
+    transition: 0.5s;
+}
 .slick-slide {
     margin: 10px;
 }
