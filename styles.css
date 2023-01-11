@@ -15,11 +15,13 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    z-index: -55;
     height: 100%;
 }
 
 .hero-img {
-    height: 70%;
+    height: 68%;
+    padding-top: 40px;
 }
 
 .row h2 {
